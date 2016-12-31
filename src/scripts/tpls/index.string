@@ -1,5 +1,17 @@
 <div class="m-index">
-  <header></header>
+  <header>
+    <ul>
+      <li></li>
+      <li></li>
+      <li></li>
+    <ul>
+  </header>
   <section></section>
-  <footer></footer>
+  <footer>
+    <ul>
+      <li></li>
+      <li></li>
+      <li></li>
+    <ul>
+  </footer>
 </div>
