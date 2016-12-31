@@ -21,6 +21,11 @@ module.exports = {
         loader: 'babel'
       },
       {
+        test: /\.string$/,
+        //loader: 'babel-loader?presets[]=es2015'
+        loader: 'string'
+      },
+      {
         test: /\.scss$/,
         //loader: 'style!css!sass'
         loader: ET.extract('style','css!sass')

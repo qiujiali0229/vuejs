@@ -1,3 +1,4 @@
-require('./styles/app.scss');
-var common = require('./scripts/common.js');
-common.getList();
+require('./styles/usage/app.scss');
+var common = require('./scripts/utils/util.common.js');
+var html = require('./scripts/tpls/index.string');
+common.render(html);
