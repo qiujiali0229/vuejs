@@ -1,0 +1,53 @@
+@charset "utf-8";
+@import "./common.scss";
+.person{
+    @include flexbox();
+    @include flex-direction(column);
+    height: 100%;
+    background: #f5f5f5;
+    font-family: "微软雅黑";
+    header{
+//      @include flex();
+        height: .56rem;
+        background: #e6e6e6;
+        text-align: center;
+        line-height: .56rem;
+        font-size: .16rem;
+    }
+    section{
+        @include flex();
+        flex: 1;
+        .login{
+            @include flex();
+            @include flex-direction(row);
+            width: 3.5rem;
+            height: 1rem;
+            line-height: 1rem;
+            background: #fff;
+            justify-content: space-around;
+            img {
+                width: .73rem;
+                height: .73rem;
+                margin-left: .1rem;
+            }
+            i{
+                margin-left: .2rem; 
+            }
+            span{
+                position:absolute;
+                right: .1rem;             
+            }
+        }
+        .main{
+            width: 3.5rem;
+            height: .84rem;
+            background: #fff;
+            margin: .2rem 0;
+        }
+        .info{
+            height: .92rem;
+            
+        }
+    }
+    
+}

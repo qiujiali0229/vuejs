@@ -1,25 +1,65 @@
 @charset "utf-8";
 @import "./common.scss";
-.m-index{
+#shopIndex{
     @include flexbox();
     @include flex-direction(column);
     height: 100%;
     background: $base-color;
+    font-family: "微软雅黑";
+//  color: #000;
     header{
         @inculde flex();
         height: .56rem;
         background: #e6e6e6;
         text-align:center;
         line-height: .56rem;
-        //font-size: .48rem;
         span{
+            display: inline-block;
+            font-size: .24rem;
+            font-weight: 600;
+            &:nth-child(2){
+                position:absolute;
+                right: .1rem;
+            }
         }
     }
     section{
         @include flex();
-        flex:1;
+        flex: 1;
         width: 100%;
-        div{
+        overflow-y: auto;
+        .head img {
+            width: .14rem;
+            height: .14rem;
+            display: inline-block;
+            transform: rotate(180deg);
+            -webkit-transform: rotate(180deg);
+            transition: transform 150ms;
+            -webkit-transition: transform 150ms;
+        }
+        .up {
+            transform: rotate(360deg) !important;
+            -webkit-transform: rotate(360deg) !important;
+        }
+        .foot {
+            text-align: center;
+            height: .35rem;
+            line-height: .35rem;
+        }
+        .foot img {
+            width: .14rem;
+            height: .14rem;
+            display: inline-block;
+            /*transform: rotate(0deg);*/
+            /*-webkit-transform: rotate(0deg);*/
+            transition: transform 150ms;
+            -webkit-transition: transform 150ms;
+        }
+        .down {
+            transform: rotate(180deg) !important;
+            -webkit-transform: rotate(180deg) !important;
+        }
+        .bor{
             @include flex();
             @include justify-content();
             @include align-items();
@@ -61,10 +101,17 @@
                             //line-height: .23rem;
                             text-align: center;
                             font-size: .14rem;
-                            color: #585858;
+                            color: #000;
                             &:nth-child(1){
                                 line-height: .25rem;
+                                white-space: nowrap;
+                                overflow: hidden;
+                                text-overflow: ellipsis;
                             }
+                            &:nth-child(2){
+                                line-height: .15rem;
+                            }
+                            
                         }
                     }
                     &:nth-child(1){

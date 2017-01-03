@@ -1,0 +1,20 @@
+<div class="person">
+	<header>个人</header>
+	<section>
+		<div class="login">
+			<img src="/images/person-head.jpg" alt="" />
+			<i>尚未登录</i>
+			<span class="yo-ico">&#xe670;</span>
+		</div>
+		<div class="main">
+			<i class="yo-ico">&#xe630;</i>
+			<i class="yo-ico">&#xe632;</i>
+			<span>购物车</span>
+			<span>我的订单</span>
+		</div>
+		<div class="info">
+			<p><i class="yo-ico">&#xe624;</i><i>我的消息</i></p>
+			<p><i class="yo-ico">&#xe660;</i><i>我的消息</i></p>
+		</div>
+	</section>
+</div>

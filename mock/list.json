@@ -2,7 +2,7 @@
 	{   
 	    "main":[
 			{
-				"imgSrc": "/images/shop-1.jpg",
+				"imgSrc": "/images/shop-1.jpg"
 			}
 		],
 		"itemInfo":[
@@ -24,51 +24,195 @@
 		]
 	},
 	{   
-		"main":[
+	    "main":[
 			{
-				"imgSrc": "/images/shop-5.jpg",
+				"imgSrc": "/images/shop-5.jpg"
 			}
 		],
 		"itemInfo":[
 		    {
 		    	"itemSrc": "/images/shop-6.jpg",
-		    	"title": "碟之语",
-		    	"price": "￥119"
+		    	"title": "撞色简约短夹",
+		    	"price": "￥285"
 		    },
 		    {
 		    	"itemSrc": "/images/shop-7.jpg",
-		    	"title": "玫瑰吊坠",
-		    	"price": "￥499"
+		    	"title": "迷你流苏包",
+		    	"price": "￥335"
 		    },
 		     {
 		    	"itemSrc": "/images/shop-8.jpg",
-		    	"title": "暗香",
-		    	"price": "￥219"
+		    	"title": "擦蜡牛皮卡套",
+		    	"price": "￥115"
 		    }
 		]
 	},
-    {   
-		"main":[
+	{   
+	    "main":[
 			{
-				"imgSrc": "/images/shop-9.jpg",
+				"imgSrc": "/images/shop-9.jpg"
 			}
 		],
 		"itemInfo":[
 		    {
 		    	"itemSrc": "/images/shop-10.jpg",
-		    	"title": "碟之语",
-		    	"price": "￥119"
+		    	"title": "戒指  相与",
+		    	"price": "￥199"
 		    },
 		    {
 		    	"itemSrc": "/images/shop-11.jpg",
-		    	"title": "玫瑰吊坠",
-		    	"price": "￥499"
-		    },
-		    {
-		    	"itemSrc": "/images/shop-12.jpg",
-		    	"title": "暗香",
+		    	"title": "戒指  遇见",
 		    	"price": "￥219"
+		    },
+		     {
+		    	"itemSrc": "/images/shop-12.jpg",
+		    	"title": "戒指  竹马",
+		    	"price": "￥299"
 		    }
 		]
-	}	  
+	},
+	{   
+	    "main":[
+			{
+				"imgSrc": "/images/shop-13.jpg"
+			}
+		],
+		"itemInfo":[
+		    {
+		    	"itemSrc": "/images/shop-14.jpg",
+		    	"title": "白菩提根佛珠",
+		    	"price": "￥268"
+		    },
+		    {
+		    	"itemSrc": "/images/shop-15.jpg",
+		    	"title": "蓦然回首",
+		    	"price": "￥75"
+		    },
+		     {
+		    	"itemSrc": "/images/shop-16.jpg",
+		    	"title": "民族风小鱼银戒指",
+		    	"price": "￥38"
+		    }
+		]
+	},
+	{   
+	    "main":[
+			{
+				"imgSrc": "/images/shop-17.jpg"
+			}
+		],
+		"itemInfo":[
+		    {
+		    	"itemSrc": "/images/shop-18.jpg",
+		    	"title": "玫瑰花树",
+		    	"price": "￥5800"
+		    },
+		    {
+		    	"itemSrc": "/images/shop-19.jpg",
+		    	"title": "夜光水母 ",
+		    	"price": "￥329"
+		    },
+		     {
+		    	"itemSrc": "/images/shop-20.jpg",
+		    	"title": "月亮说",
+		    	"price": "￥224"
+		    }
+		]
+	},
+	{   
+	    "main":[
+			{
+				"imgSrc": "/images/shop-21.jpg"
+			}
+		],
+		"itemInfo":[
+		    {
+		    	"itemSrc": "/images/shop-22.jpg",
+		    	"title": "海棠树枝脂胸针",
+		    	"price": "￥128"
+		    },
+		    {
+		    	"itemSrc": "/images/shop-23.jpg",
+		    	"title": "荷叶玉雕刻胸针 ",
+		    	"price": "￥42"
+		    },
+		     {
+		    	"itemSrc": "/images/shop-24.jpg",
+		    	"title": "年年有鱼胸针",
+		    	"price": "￥32.4"
+		    }
+		]
+	},
+	{   
+	    "main":[
+			{
+				"imgSrc": "/images/shop-25.jpg"
+			}
+		],
+		"itemInfo":[
+		    {
+		    	"itemSrc": "/images/shop-26.jpg",
+		    	"title": "老玛瑙立体蓬莱手链",
+		    	"price": "￥128"
+		    },
+		    {
+		    	"itemSrc": "/images/shop-27.jpg",
+		    	"title": "莲花菩提根手串 ",
+		    	"price": "￥65"
+		    },
+		     {
+		    	"itemSrc": "/images/shop-28.jpg",
+		    	"title": "吉祥刺绣长命锁",
+		    	"price": "￥99"
+		    }
+		]
+	},
+	{   
+	    "main":[
+			{
+				"imgSrc": "/images/shop-29.jpg"
+			}
+		],
+		"itemInfo":[
+		    {
+		    	"itemSrc": "/images/shop-30.jpg",
+		    	"title": "项坠  相与",
+		    	"price": "￥259"
+		    },
+		    {
+		    	"itemSrc": "/images/shop-31.jpg",
+		    	"title": "项坠  自在 ",
+		    	"price": "￥378"
+		    },
+		     {
+		    	"itemSrc": "/images/shop-32.jpg",
+		    	"title": "唤醒你的初心",
+		    	"price": "￥299"
+		    }
+		]
+	},
+	{   
+	    "main":[
+			{
+				"imgSrc": "/images/shop-33.jpg"
+			}
+		],
+		"itemInfo":[
+		    {
+		    	"itemSrc": "/images/shop-34.jpg",
+		    	"title": "纯银玫瑰花玉石",
+		    	"price": "￥48"
+		    },
+		    {
+		    	"itemSrc": "/images/shop-35.jpg",
+		    	"title": "翡翠耳线 ",
+		    	"price": "￥72"
+		    },
+		     {
+		    	"itemSrc": "/images/shop-36.jpg",
+		    	"title": "翡冷翠",
+		    	"price": "￥158"
+		    }
+		]
+	}  
 ]

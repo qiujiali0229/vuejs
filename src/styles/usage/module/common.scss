@@ -1,8 +1,19 @@
 $base-color: #f1f1f1;
-@font-face {font-family: "yofont";
-  src: url('/images/fonts/iconfont.eot');
-  src: url('/images/fonts/iconfont.eot?#iefix') format('embedded-opentype'),
-  url('/images/fonts/iconfont.woff') format('woff'),
-  url('/images/fonts/iconfont.ttf') format('truetype'),
-  url('/images/fonts/iconfont.svg#iconfont') format('svg'); /* iOS 4.1- */
+/*----------------shop---------------*/
+@font-face {
+  font-family: "yofont";
+  src: url('/images/fonts/iconshop.eot');
+  src: url('/images/fonts/iconshop.eot?#iefix') format('embedded-opentype'),
+  url('/images/fonts/iconshop.woff') format('woff'),
+  url('/images/fonts/iconshop.ttf') format('truetype'),
+  url('/images/fonts/iconshop.svg#iconfont') format('svg'); /* iOS 4.1- */
+}
+/*---------------person---------------*/
+@font-face {
+  font-family: 'yofont';
+  src: url('/images/fonts/iconperson.eot');
+  src: url('/images/fonts/iconperson.eot?#iefix') format('embedded-opentype'),
+  url('/images/fonts/iconperson.woff') format('woff'),
+  url('/images/fonts/iconperson.ttf') format('truetype'),
+  url('/images/fonts/iconperson.svg#iconfont') format('svg');
 }

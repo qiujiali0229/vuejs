@@ -88,9 +88,7 @@
 			list: []
 		},
 		mounted: function () {
-			fetch('/api/list').then(response => response.json()).then(res => {
-				this.list = res;
-			}).catch(e => console.log("Oops,error", e));
+			fetch('/api/list').then(response => response.json()).then(res => console.log(res)).catch(e => console.log("Oops, error", e));
 		}
 	});
 
