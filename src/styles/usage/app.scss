@@ -1,4 +1,6 @@
-@import "./common.scss";
-body{
-  background:$base-color;
-}
+@charset "UTF-8";
+
+@import "./core/reset";
+
+// module
+@import "./module/shop";
