@@ -26,11 +26,21 @@ module.exports = {
         loader: 'string'
       },
       {
+      	test:/\.vue$/,
+      	loader: 'vue'
+      },
+      {
         test: /\.scss$/,
         //loader: 'style!css!sass'
         loader: ET.extract('style','css!sass')
       }
     ]
+  },
+  /*-----------使用babel解析es6-----------*/
+  vue: {
+  	loader: {
+  		js: 'babel'
+  	}
   },
   devServer: {
     contentBase: __dirname + '/prd',

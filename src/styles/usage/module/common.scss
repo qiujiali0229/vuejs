@@ -17,3 +17,12 @@ $base-color: #f1f1f1;
   url('/images/fonts/iconperson.ttf') format('truetype'),
   url('/images/fonts/iconperson.svg#iconfont') format('svg');
 }
+/*----------------------register----------------------*/
+@font-face {
+  font-family: 'yofont';
+  src: url('/images/fonts/iconregister.eot');
+  src: url('/images/fonts/iconregister.eot?#iefix') format('embedded-opentype'),
+  url('/images/fonts/iconregister.woff') format('woff'),
+  url('/images/fonts/iconregister.ttf') format('truetype'),
+  url('/images/fonts/iconregister.svg#iconfont') format('svg');
+}
