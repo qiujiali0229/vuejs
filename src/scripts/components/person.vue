@@ -2,7 +2,7 @@
 	<div id="person">
 		<header>个人</header>
 		<section>
-			<router-link v-bind:to="'/login'">
+			<router-link :to="'/login'">
 				<div class="log">
 						<img src="/images/person-head.jpg" alt="" />
 						<i>尚未登录</i>

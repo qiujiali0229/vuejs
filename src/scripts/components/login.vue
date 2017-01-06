@@ -1,7 +1,9 @@
 <template id="">
 	<div id="login">
 		<header>
-				<span class="yo-ico">&#xe658;</span>
+				<router-link :to="'/'">
+					<span class="yo-ico">&#xe658;</span>
+				</router-link>
 		    <span>登录及注册</span>
 		    <span>短信登录</span>
 		</header>

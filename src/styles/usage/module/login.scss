@@ -17,18 +17,21 @@
             display: flex;
             color: #000;
             span:nth-child(1){
-                display: inline;
-                margin-left: 6.4%;
-                font-size: .30rem;
+              display: block;
+              position: absolute;
+              left: 6.1%;
+              font-size: .24rem;
+              color: #6a6a6a;
             }
             span:nth-child(2){
                 margin: auto;
             }
             span:nth-child(3){
-                display: inline;
-                margin-right: 3.2%;
-                color: #747474;
-                font-size: .13rem;
+              display: block;
+              position: absolute;
+              right: 3.2%;
+              font-size: .13rem;
+              color: #747474;
             }
         }
         section{

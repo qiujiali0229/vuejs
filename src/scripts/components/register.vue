@@ -1,7 +1,9 @@
 <template id="">
 	<div id="register">
 		<header>
-				<span class="yo-ico">&#xe658;</span>
+				<router-link :to="'/login'">
+					<span class="yo-ico">&#xe658;</span>
+				</router-link>
 		    <span>注册</span>
 		</header>
 		<section>

@@ -10,7 +10,8 @@ import registerPwd from "./scripts/components/registerPwd.vue"
 import login from "./scripts/components/login.vue"
 
 //vue  router  2
-const routes=[{
+const routes=[
+    {
    	//"/"表示根路由
     	path: '/',
     	component: person
@@ -23,7 +24,8 @@ const routes=[{
     },{
           path: '/registerPwd',
         	component: registerPwd
-}]
+    }
+]
 const router = new VueRouter({
 	routes
 })

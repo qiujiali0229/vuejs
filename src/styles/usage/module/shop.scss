@@ -9,7 +9,7 @@
         background: $base-color;
         font-family: "微软雅黑";
         header{
-            @inculde flex();
+            @include flex();
             height: .56rem;
             background: #e6e6e6;
             text-align:center;
@@ -112,7 +112,7 @@
                                 &:nth-child(2){
                                     line-height: .15rem;
                                 }
-                                
+
                             }
                         }
                         &:nth-child(1){
@@ -124,4 +124,3 @@
         }
     }
 }
-
