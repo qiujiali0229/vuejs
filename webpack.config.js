@@ -17,8 +17,8 @@ module.exports = {
       },
       {
         test: /\.js$/,
-        //loader: 'babel-loader?presets[]=es2015'
-        loader: 'babel'
+        loader: 'babel-loader?presets[]=es2015'
+       // loader: 'babel'
       },
       {
         test: /\.string$/,
@@ -29,9 +29,20 @@ module.exports = {
         test: /\.scss$/,
         //loader: 'style!css!sass'
         loader: ET.extract('style','css!sass')
+      },
+      {
+      	test: /\.vue$/,
+      	loader:'vue'
       }
     ]
   },
+  
+  vue: {
+  	loaders:{
+  		js: 'babel-loader?presets[]=es2015'
+  	}
+  },
+  
   devServer: {
     contentBase: __dirname + '/prd',
     port: 80,
@@ -46,7 +57,7 @@ module.exports = {
     }
   },
   plugins:[
-    //new webpack.optimize.UglifyJsPlugin(),
+      new webpack.optimize.UglifyJsPlugin(),
     new ET('bundle.css')
   ]
 }

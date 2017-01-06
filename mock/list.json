@@ -1,10 +1,17 @@
 [
   {
-    "name": "qiujiali",
-    "age": "21"
+    "imgSrc": "images/s-1.jpg"
   },
   {
-    "name": "zhangsan",
-    "age": "24"
+    "imgSrc": "images/s-2.jpg"
+  },
+    {
+    "imgSrc": "images/s-3.jpg"
+  },
+    {
+    "imgSrc": "images/s-4.jpg"
+  },
+    {
+    "imgSrc": "images/s-5.jpg"
   }
 ]
