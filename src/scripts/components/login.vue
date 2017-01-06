@@ -6,8 +6,8 @@
 		    <span>短信登录</span>
 		</header>
 		<section>
-			<div class="info"><b class="yo-ico">&#xe801;</b><i>Username</i></div>
-			<div class="info"><b class="yo-ico">&#xe692;</b><i>Phone</i></div>
+			<div class="info"><b class="yo-ico">&#xe801;</b><input type="text" placeholder="Username"/></div>
+			<div class="info"><b class="yo-ico">&#xe692;</b><input type="text" placeholder="Phone"/></div>
 			<div class="res">登录</div>
 			<p class="fg">
 				<span class="pwd">忘记密码</span>

@@ -34,11 +34,14 @@
                 left: 13.6%;
                 margin-top: .24rem;
             }
-            i{
-                display: inline-block;
-                margin-top: .4rem;
-                font-size: .14rem;
-            }
+            input{
+               border: 0;
+               background: #f0f0f0;
+               display: inline-block;
+               margin-top: .4rem;
+               font-size: .14rem;
+               text-align: center;
+           }
         }
         .tit{
             width: 100%;
@@ -63,8 +66,8 @@
             line-height: .68rem;
             font-size: .14rem;
             color: #757575;
-            width: 2rem;
-            margin: .30rem auto 0;
+            width: 2.3rem;
+            margin: auto;
         }
         .mth{
             width: 26%;
