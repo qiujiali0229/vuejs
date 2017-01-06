@@ -1,10 +1,40 @@
-[
-  {
-    "name": "qiujiali",
-    "age": "21"
-  },
-  {
-    "name": "zhangsan",
-    "age": "24"
-  }
-]
+{"data1":[
+	{
+		"imgSrc" : "images/image/f-bo1.jpg"
+	},
+	{
+		"imgSrc" : "images/image/f-bo2.jpg"
+	},
+	{
+		"imgSrc" : "images/image/f-bo3.jpg"
+	},
+	{
+		"imgSrc" : "images/image/f-bo4.jpg"
+	},
+	{
+		"imgSrc" : "images/image/f-bo5.jpg"
+	},
+	{
+		"imgSrc" : "images/image/f-bo6.jpg"
+	}
+],
+"data2":[
+	{
+		"imgSrc1" : "images/image/f-bor1.jpg"
+	},
+	{
+		"imgSrc1" : "images/image/f-bor2.jpg"
+	},
+	{
+		"imgSrc1" : "images/image/f-bor3.jpg"
+	},
+	{
+		"imgSrc1" : "images/image/f-bor4.jpg"
+	},
+	{
+		"imgSrc1" : "images/image/f-bor5.jpg"
+	},			
+	{
+		"imgSrc1" : "images/image/f-bor6.jpg"
+	}
+]}

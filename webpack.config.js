@@ -1,4 +1,5 @@
 var webpack = require('webpack');
+
 var ET = require('extract-text-webpack-plugin');
 module.exports = {
   entry: __dirname + '/src/app.js',

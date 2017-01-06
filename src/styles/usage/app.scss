@@ -1,4 +1,4 @@
+@charset "UTF-8";
+@import "./core/reset.scss";
 @import "./common.scss";
-body{
-  background:$base-color;
-}
+@import "./module/m-index.scss";
