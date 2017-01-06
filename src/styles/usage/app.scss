@@ -1,7 +1,16 @@
 @charset "UTF-8";
+<<<<<<< HEAD
 @import "./core/reset";
 @import "./module/shop";
 @import "./module/person";
 @import "./module/register";
 @import "./module/registerPwd";
 @import "./module/login"
+=======
+@import "./core/reset.scss";
+@import "./module/m-index.scss";
+@import "./module/common.scss";
+@import "./module/m-search.scss";
+@import "./module/m-supermarket.scss";
+@import "./module/m-my.scss";
+>>>>>>> lijunmin

@@ -18,12 +18,16 @@ module.exports = {
       {
         test: /\.js$/,
         loader: 'babel-loader?presets[]=es2015'
+<<<<<<< HEAD
         //loader: 'babel'
       },
       {
         test: /\.scss$/,
         //loader: 'style!css!sass'
         loader: ET.extract('style','css!sass')
+=======
+       // loader: 'babel'
+>>>>>>> lijunmin
       },
       {
         test: /\.string$/,
@@ -31,6 +35,7 @@ module.exports = {
         loader: 'string'
       },
       {
+<<<<<<< HEAD
       	test: /\.vue$/,
       	loader: 'vue'
       }
@@ -47,6 +52,25 @@ module.exports = {
   		'vue$':'vue/dist/vue.min.js'
   	}
   },
+=======
+        test: /\.scss$/,
+        //loader: 'style!css!sass'
+        loader: ET.extract('style','css!sass')
+      },
+      {
+      	test: /\.vue$/,
+      	loader:'vue'
+      }
+    ]
+  },
+  
+  vue: {
+  	loaders:{
+  		js: 'babel-loader?presets[]=es2015'
+  	}
+  },
+  
+>>>>>>> lijunmin
   devServer: {
     contentBase: __dirname + '/prd',
     port: 80,
@@ -61,7 +85,11 @@ module.exports = {
     }
   },
   plugins:[
+<<<<<<< HEAD
     new webpack.optimize.UglifyJsPlugin(),
+=======
+      new webpack.optimize.UglifyJsPlugin(),
+>>>>>>> lijunmin
     new ET('bundle.css')
   ]
 }
