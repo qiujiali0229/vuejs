@@ -1,4 +1,5 @@
 var webpack = require('webpack');
+
 var ET = require('extract-text-webpack-plugin');
 module.exports = {
   entry: __dirname + '/src/app.js',
@@ -19,12 +20,16 @@ module.exports = {
         test: /\.js$/,
         loader: 'babel-loader?presets[]=es2015'
 <<<<<<< HEAD
+<<<<<<< HEAD
         //loader: 'babel'
       },
       {
         test: /\.scss$/,
         //loader: 'style!css!sass'
         loader: ET.extract('style','css!sass')
+=======
+       // loader: 'babel'
+>>>>>>> lijunmin
 =======
        // loader: 'babel'
 >>>>>>> lijunmin
@@ -70,6 +75,9 @@ module.exports = {
   	}
   },
   
+<<<<<<< HEAD
+>>>>>>> lijunmin
+=======
 >>>>>>> lijunmin
   devServer: {
     contentBase: __dirname + '/prd',
@@ -86,7 +94,11 @@ module.exports = {
   },
   plugins:[
 <<<<<<< HEAD
+<<<<<<< HEAD
     new webpack.optimize.UglifyJsPlugin(),
+=======
+      new webpack.optimize.UglifyJsPlugin(),
+>>>>>>> lijunmin
 =======
       new webpack.optimize.UglifyJsPlugin(),
 >>>>>>> lijunmin

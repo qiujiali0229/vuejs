@@ -1,5 +1,6 @@
 require('./styles/usage/app.scss')
 <<<<<<< HEAD
+<<<<<<< HEAD
 //components
 var layout = require('./scripts/tpls/layout.string')
 var common = require('./scripts/utils/util.common.js')
@@ -35,6 +36,8 @@ const app = new Vue({
 	router
 }).$mount('#app')
 =======
+=======
+>>>>>>> lijunmin
 var layout = require('./scripts/tpls/layout.string')
 var common = require('./scripts//utils/util.common.js')
 
@@ -68,8 +71,11 @@ const routes = [{
 	 }]
 }]
 
+<<<<<<< HEAD
 =======
 >>>>>>> qiujiali
+=======
+>>>>>>> lijunmin
 const router = new VueRouter({
 	routes
 })
@@ -82,6 +88,15 @@ const app = new Vue({
 /*var common = require('./scripts/utils/util.common.js');
 var html = require('./scripts/tpls/index.string');
 common.render(html);
+<<<<<<< HEAD
+<<<<<<< HEAD
+
+require('./scripts/views/index.js');*/
+>>>>>>> lijunmin
+=======
+require('./scripts/views/ff-index.js');
+>>>>>>> fgl
+=======
 
 require('./scripts/views/index.js');*/
 >>>>>>> lijunmin

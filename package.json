@@ -19,9 +19,15 @@
     "jquery": "^3.1.1",
     "node-sass": "^4.1.1",
     "sass-loader": "^4.1.1",
+    "scss-loader": "0.0.1",
     "string-loader": "0.0.1",
     "style-loader": "^0.13.1",
 <<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    "swiper": "^3.4.1",
+>>>>>>> lijunmin
 =======
     "swiper": "^3.4.1",
 >>>>>>> lijunmin
@@ -32,10 +38,18 @@
     "vue-template-compiler": "^2.1.8",
     "webpack": "^1.14.0",
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    "swiper": "^3.4.1",
+    "vue": "^2.1.8",
+    "webpack": "^1.14.0",
+>>>>>>> fgl
     "webpack-dev-server": "^1.16.2",
     "zepto": "^1.2.0"
   }
 =======
+=======
+>>>>>>> lijunmin
     "webpack-dev-server": "^1.16.2"
   },
   "dependencies": {
@@ -55,5 +69,8 @@
     "url": "https://github.com/qiujiali0229/vuejs/issues"
   },
   "homepage": "https://github.com/qiujiali0229/vuejs#readme"
+<<<<<<< HEAD
+>>>>>>> lijunmin
+=======
 >>>>>>> lijunmin
 }
