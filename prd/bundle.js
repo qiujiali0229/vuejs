@@ -79,12 +79,20 @@
 	var routes = [{
 	  //"/"表示根路由
 	  path: '/',
-	  component: _person2.default
-	}, {
-	  path: '/login',
-	  component: _login2.default
+	  component: _person2.default,
+	  children: [{
+	    path: '/login',
+	    component: _login2.default,
+	    children: [{
+	      path: '/register',
+	      component: _register2.default,
+	      children: [{
+	        path: '/registerPwd',
+	        component: _registerPwd2.default
+	      }]
+	    }]
+	  }]
 	}];
-	
 	var router = new VueRouter({
 	  routes: routes
 	});
@@ -140,6 +148,8 @@
 /* 2 */
 /***/ function(module, exports, __webpack_require__) {
 
+	'use strict';
+	
 	//
 	//
 	//
@@ -192,13 +202,17 @@
 	
 	var common = __webpack_require__(3);
 	module.exports = {
-		data: function () {
+		data: function data() {
 			return {
 				list: []
 			};
 		},
-		mounted: function () {
-			fetch('/api/list').then(response => response.json()).then(res => {
+		mounted: function mounted() {
+			var _this = this;
+	
+			fetch('/api/list').then(function (response) {
+				return response.json();
+			}).then(function (res) {
 				//      	setTimeout(function () {
 				//		        var myScroll = new IScroll('#shopIscroll', {
 				//		            probeType: 3,
@@ -267,8 +281,10 @@
 				//		            }
 				//		        })
 				//		    }, 1000);
-				this.list = res;
-			}).catch(e => console.log("Oops, error", e));
+				_this.list = res;
+			}).catch(function (e) {
+				return console.log("Oops, error", e);
+			});
 		}
 	};
 
@@ -401,12 +417,12 @@
 	    attrs: {
 	      "id": "person"
 	    }
-	  }, [_c('header', [_vm._v("个人")]), _vm._v(" "), _c('section', [_c('div', {
-	    staticClass: "log"
-	  }, [_c('router-link', {
+	  }, [_c('header', [_vm._v("个人")]), _vm._v(" "), _c('section', [_c('router-link', {
 	    attrs: {
 	      "to": '/login'
 	    }
+	  }, [_c('div', {
+	    staticClass: "log"
 	  }, [_c('img', {
 	    attrs: {
 	      "src": "/images/person-head.jpg",
@@ -414,7 +430,7 @@
 	    }
 	  }), _vm._v(" "), _c('i', [_vm._v("尚未登录")]), _vm._v(" "), _c('span', {
 	    staticClass: "yo-ico"
-	  }, [_vm._v("")])])], 1), _vm._v(" "), _vm._m(0), _vm._v(" "), _vm._m(1), _vm._v(" "), _vm._m(2)])])
+	  }, [_vm._v("")])])]), _vm._v(" "), _vm._m(0), _vm._v(" "), _vm._m(1), _vm._v(" "), _vm._m(2)], 1)])
 	},staticRenderFns: [function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
 	  return _c('div', {
 	    staticClass: "main"
@@ -500,7 +516,7 @@
 	    }
 	  }, [_c('header', [_c('span', {
 	    staticClass: "yo-ico"
-	  }, [_vm._v("")]), _vm._v(" "), _c('span', [_vm._v("个人")])]), _vm._v(" "), _c('section', [_c('div', {
+	  }, [_vm._v("")]), _vm._v(" "), _c('span', [_vm._v("注册")])]), _vm._v(" "), _c('section', [_c('div', {
 	    staticClass: "info"
 	  }, [_c('b', {
 	    staticClass: "yo-ico"
@@ -514,7 +530,7 @@
 	    staticClass: "res"
 	  }, [_vm._v("注册")]), _vm._v(" "), _c('p', {
 	    staticClass: "other"
-	  }, [_vm._v("----------其他登录方式---------")]), _vm._v(" "), _c('div', {
+	  }, [_vm._v("----------其他登录方式----------")]), _vm._v(" "), _c('div', {
 	    staticClass: "mth"
 	  }, [_c('span', {
 	    staticClass: "yo-ico"
@@ -586,15 +602,15 @@
 	    staticClass: "yo-ico"
 	  }, [_vm._v("")]), _vm._v(" "), _c('span', [_vm._v("密码注册")])]), _vm._v(" "), _c('section', [_c('div', {
 	    staticClass: "info"
-	  }, [_c('i', [_vm._v("fd")]), _c('b', {
+	  }, [_c('b', {
 	    staticClass: "yo-ico"
 	  }, [_vm._v("")]), _c('span', [_vm._v("输入密码")])]), _vm._v(" "), _c('div', {
 	    staticClass: "info"
-	  }, [_c('i', [_vm._v("fdsa")]), _c('b', {
+	  }, [_c('b', {
 	    staticClass: "yo-ico"
 	  }, [_vm._v("")]), _c('span', [_vm._v("再次输入密码")])]), _vm._v(" "), _c('div', {
 	    staticClass: "info"
-	  }, [_c('i', [_vm._v("点击发送验证码")]), _c('span', [_vm._v("输入验证码")])]), _vm._v(" "), _c('div', {
+	  }, [_c('span', [_vm._v("输入验证码")]), _c('span', [_vm._v("发送验证码")])]), _vm._v(" "), _c('div', {
 	    staticClass: "res"
 	  }, [_vm._v("注册")])])])
 	}]}
@@ -652,35 +668,43 @@
 /***/ function(module, exports, __webpack_require__) {
 
 	module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
-	  return _vm._m(0)
-	},staticRenderFns: [function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
 	  return _c('div', {
 	    attrs: {
 	      "id": "login"
 	    }
-	  }, [_c('header', [_c('span', {
-	    staticClass: "yo-ico"
-	  }, [_vm._v("")]), _vm._v(" "), _c('span', [_vm._v("登录及注册")]), _vm._v(" "), _c('span', [_vm._v("短信登录")])]), _vm._v(" "), _c('section', [_c('div', {
-	    staticClass: "info"
-	  }, [_c('b', {
-	    staticClass: "yo-ico"
-	  }, [_vm._v("")]), _c('i', [_vm._v("Username")])]), _vm._v(" "), _c('div', {
-	    staticClass: "info"
-	  }, [_c('b', {
-	    staticClass: "yo-ico"
-	  }, [_vm._v("")]), _c('i', [_vm._v("Phone")])]), _vm._v(" "), _c('div', {
+	  }, [_vm._m(0), _vm._v(" "), _c('section', [_vm._m(1), _vm._v(" "), _vm._m(2), _vm._v(" "), _c('div', {
 	    staticClass: "res"
 	  }, [_vm._v("登录")]), _vm._v(" "), _c('p', {
 	    staticClass: "fg"
-	  }, [_c('span', [_vm._v("忘记密码")]), _c('span', [_vm._v("没有账号？")]), _c('span', [_vm._v("注册")])]), _vm._v(" "), _c('p', {
+	  }, [_c('span', {
+	    staticClass: "pwd"
+	  }, [_vm._v("忘记密码")]), _vm._v(" "), _c('router-view', [_c('span', [_vm._v("没有账号？")]), _c('span', [_vm._v("注册")])])], 1), _vm._v(" "), _c('p', {
 	    staticClass: "other"
-	  }, [_vm._v("----------其他登录方式---------")]), _vm._v(" "), _c('div', {
+	  }, [_vm._v("----------其他登录方式---------")]), _vm._v(" "), _vm._m(3)])])
+	},staticRenderFns: [function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
+	  return _c('header', [_c('span', {
+	    staticClass: "yo-ico"
+	  }, [_vm._v("")]), _vm._v(" "), _c('span', [_vm._v("登录及注册")]), _vm._v(" "), _c('span', [_vm._v("短信登录")])])
+	},function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
+	  return _c('div', {
+	    staticClass: "info"
+	  }, [_c('b', {
+	    staticClass: "yo-ico"
+	  }, [_vm._v("")]), _c('i', [_vm._v("Username")])])
+	},function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
+	  return _c('div', {
+	    staticClass: "info"
+	  }, [_c('b', {
+	    staticClass: "yo-ico"
+	  }, [_vm._v("")]), _c('i', [_vm._v("Phone")])])
+	},function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
+	  return _c('div', {
 	    staticClass: "mth"
 	  }, [_c('span', {
 	    staticClass: "yo-ico"
 	  }, [_vm._v("")]), _c('span', {
 	    staticClass: "yo-ico"
-	  }, [_vm._v("")])])])])
+	  }, [_vm._v("")])])
 	}]}
 	module.exports.render._withStripped = true
 	if (false) {

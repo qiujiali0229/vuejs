@@ -1,11 +1,13 @@
 <div id="person">
 	<header>个人</header>
 	<section>
-		<div class="log">
-			<img src="/images/person-head.jpg" alt="" />
-			<i>尚未登录</i>
-			<span class="yo-ico">&#xe670;</span>
-		</div>
+		<router-link :to="'/login'">
+			<div class="log">
+					<img src="/images/person-head.jpg" alt="" />
+					<i>尚未登录</i>
+					<span class="yo-ico">&#xe670;</span>
+			</div>
+		</router-link>
 		<div class="main">
 			<p>
 				<i class="yo-ico">&#xe630;</i>

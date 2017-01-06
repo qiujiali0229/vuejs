@@ -17,6 +17,7 @@
             display: block;
             position: absolute;
             left: 6.1%;
+            font-size: .30rem;
         }
     }
     section{
@@ -25,14 +26,14 @@
             width: 81%;
             height: .65rem;
             border-bottom: 1px solid #d7d7d7;
-            margin: auto;  
+            margin: auto;
             text-align: center;
             b{
                 font-size: .30rem;
                 position:absolute;
                 left: 13.6%;
                 margin-top: .24rem;
-            }  
+            }
             i{
                 display: inline-block;
                 margin-top: .4rem;
@@ -62,7 +63,8 @@
             line-height: .68rem;
             font-size: .14rem;
             color: #757575;
-            margin-top: .30rem;
+            width: 2rem;
+            margin: .30rem auto 0;
         }
         .mth{
             width: 26%;

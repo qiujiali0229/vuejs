@@ -1,3 +1,4 @@
+<template id="">
 <div id="registerPwd">
 	<header>
 			<span class="yo-ico">&#xe658;</span>
@@ -9,3 +10,5 @@
 			<div class="info"><span>输入验证码</span><span>发送验证码</span></div>
 			<div class="res">注册</div>
 	</section>
+	</div>
+</template>

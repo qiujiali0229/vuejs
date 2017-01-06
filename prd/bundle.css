@@ -727,6 +727,144 @@ a {
 
 #app {
   height: 100%; }
+  #app #shopIndex {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    flex-direction: column;
+    height: 100%;
+    background: #f1f1f1;
+    font-family: "\5FAE\8F6F\96C5\9ED1"; }
+    #app #shopIndex header {
+      @inculde flex();
+      height: .56rem;
+      background: #e6e6e6;
+      text-align: center;
+      line-height: .56rem; }
+      #app #shopIndex header span {
+        display: inline-block;
+        font-size: .24rem;
+        font-weight: 600; }
+        #app #shopIndex header span:nth-child(2) {
+          position: absolute;
+          right: .1rem; }
+    #app #shopIndex section {
+      -webkit-box-flex: 1;
+      -webkit-flex: 1;
+      flex: 1;
+      width: .1px;
+      flex: 1;
+      width: 100%;
+      overflow-y: auto; }
+      #app #shopIndex section .head img {
+        width: .14rem;
+        height: .14rem;
+        display: inline-block;
+        transform: rotate(180deg);
+        -webkit-transform: rotate(180deg);
+        transition: transform 150ms;
+        -webkit-transition: transform 150ms; }
+      #app #shopIndex section .up {
+        transform: rotate(360deg) !important;
+        -webkit-transform: rotate(360deg) !important; }
+      #app #shopIndex section .foot {
+        text-align: center;
+        height: .35rem;
+        line-height: .35rem; }
+      #app #shopIndex section .foot img {
+        width: .14rem;
+        height: .14rem;
+        display: inline-block;
+        /*transform: rotate(0deg);*/
+        /*-webkit-transform: rotate(0deg);*/
+        transition: transform 150ms;
+        -webkit-transition: transform 150ms; }
+      #app #shopIndex section .down {
+        transform: rotate(180deg) !important;
+        -webkit-transform: rotate(180deg) !important; }
+      #app #shopIndex section .bor {
+        -webkit-box-flex: 1;
+        -webkit-flex: 1;
+        flex: 1;
+        width: .1px;
+        -webkit-box-pack: center;
+        -webkit-justify-content: center;
+        justify-content: center;
+        -webkit-box-align: center;
+        -webkit-align-items: center;
+        align-items: center;
+        width: 96.6%;
+        height: 3.56rem;
+        margin: .05rem;
+        border: 1px solid #ddd;
+        border-radius: 5px; }
+        #app #shopIndex section .bor b img:nth-child(1) {
+          width: 98%;
+          height: 1.87rem;
+          margin: .03rem; }
+        #app #shopIndex section .bor i {
+          display: -webkit-box;
+          display: -webkit-flex;
+          display: flex;
+          -webkit-box-orient: horizontal;
+          -webkit-box-direction: normal;
+          -webkit-flex-direction: row;
+          flex-direction: row;
+          height: 1.63rem; }
+          #app #shopIndex section .bor i dl {
+            width: 32%;
+            height: 1.6rem;
+            margin: .03rem 0.01rem 0 0; }
+            #app #shopIndex section .bor i dl dt {
+              width: 96%;
+              height: 1.13rem; }
+              #app #shopIndex section .bor i dl dt img {
+                display: block;
+                width: 100%;
+                height: 100%; }
+            #app #shopIndex section .bor i dl dd {
+              width: 96%;
+              height: .47rem; }
+              #app #shopIndex section .bor i dl dd p {
+                width: 100%;
+                height: .235rem;
+                text-align: center;
+                font-size: .14rem;
+                color: #000; }
+                #app #shopIndex section .bor i dl dd p:nth-child(1) {
+                  line-height: .25rem;
+                  white-space: nowrap;
+                  overflow: hidden;
+                  text-overflow: ellipsis; }
+                #app #shopIndex section .bor i dl dd p:nth-child(2) {
+                  line-height: .15rem; }
+            #app #shopIndex section .bor i dl:nth-child(1) {
+              margin-left: .04rem; }
+
+/*----------------shop---------------*/
+@font-face {
+  font-family: "yofont";
+  src: url("/images/fonts/iconshop.eot");
+  src: url("/images/fonts/iconshop.eot?#iefix") format("embedded-opentype"), url("/images/fonts/iconshop.woff") format("woff"), url("/images/fonts/iconshop.ttf") format("truetype"), url("/images/fonts/iconshop.svg#iconfont") format("svg");
+  /* iOS 4.1- */ }
+
+/*---------------person---------------*/
+@font-face {
+  font-family: 'yofont';
+  src: url("/images/fonts/iconperson.eot");
+  src: url("/images/fonts/iconperson.eot?#iefix") format("embedded-opentype"), url("/images/fonts/iconperson.woff") format("woff"), url("/images/fonts/iconperson.ttf") format("truetype"), url("/images/fonts/iconperson.svg#iconfont") format("svg"); }
+
+/*----------------------register----------------------*/
+@font-face {
+  font-family: 'yofont';
+  src: url("/images/fonts/iconregister.eot");
+  src: url("/images/fonts/iconregister.eot?#iefix") format("embedded-opentype"), url("/images/fonts/iconregister.woff") format("woff"), url("/images/fonts/iconregister.ttf") format("truetype"), url("/images/fonts/iconregister.svg#iconfont") format("svg"); }
+
+#app {
+  height: 100%; }
   #app #person {
     display: -webkit-box;
     display: -webkit-flex;
@@ -846,6 +984,179 @@ a {
   src: url("/images/fonts/iconregister.eot");
   src: url("/images/fonts/iconregister.eot?#iefix") format("embedded-opentype"), url("/images/fonts/iconregister.woff") format("woff"), url("/images/fonts/iconregister.ttf") format("truetype"), url("/images/fonts/iconregister.svg#iconfont") format("svg"); }
 
+#register {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  flex-direction: column;
+  height: 100%;
+  background: #f0f0f0;
+  font-family: "\5FAE\8F6F\96C5\9ED1"; }
+  #register header {
+    width: 100%;
+    height: .59rem;
+    background: #e6e6e6;
+    text-align: center;
+    line-height: .59rem;
+    font-size: .18rem; }
+    #register header span:nth-child(1) {
+      display: block;
+      position: absolute;
+      left: 6.1%;
+      font-size: .30rem; }
+  #register section {
+    flex: 1; }
+    #register section .info {
+      width: 81%;
+      height: .65rem;
+      border-bottom: 1px solid #d7d7d7;
+      margin: auto;
+      text-align: center; }
+      #register section .info b {
+        font-size: .30rem;
+        position: absolute;
+        left: 13.6%;
+        margin-top: .24rem; }
+      #register section .info i {
+        display: inline-block;
+        margin-top: .4rem;
+        font-size: .14rem; }
+    #register section .tit {
+      width: 100%;
+      height: .48rem;
+      line-height: .48rem;
+      text-align: center;
+      font-size: .14rem;
+      color: #8c8c8c; }
+    #register section .res {
+      width: 83.2%;
+      height: .36rem;
+      background: #000;
+      text-align: center;
+      line-height: .36rem;
+      margin: auto;
+      font-size: .14rem;
+      color: #fff; }
+    #register section .other {
+      height: .68rem;
+      line-height: .68rem;
+      font-size: .14rem;
+      color: #757575;
+      width: 2rem;
+      margin: .30rem auto 0; }
+    #register section .mth {
+      width: 26%;
+      margin: auto;
+      font-size: .32rem; }
+      #register section .mth span:nth-child(1) {
+        display: inline-block;
+        margin-right: 8.8%; }
+
+/*----------------shop---------------*/
+@font-face {
+  font-family: "yofont";
+  src: url("/images/fonts/iconshop.eot");
+  src: url("/images/fonts/iconshop.eot?#iefix") format("embedded-opentype"), url("/images/fonts/iconshop.woff") format("woff"), url("/images/fonts/iconshop.ttf") format("truetype"), url("/images/fonts/iconshop.svg#iconfont") format("svg");
+  /* iOS 4.1- */ }
+
+/*---------------person---------------*/
+@font-face {
+  font-family: 'yofont';
+  src: url("/images/fonts/iconperson.eot");
+  src: url("/images/fonts/iconperson.eot?#iefix") format("embedded-opentype"), url("/images/fonts/iconperson.woff") format("woff"), url("/images/fonts/iconperson.ttf") format("truetype"), url("/images/fonts/iconperson.svg#iconfont") format("svg"); }
+
+/*----------------------register----------------------*/
+@font-face {
+  font-family: 'yofont';
+  src: url("/images/fonts/iconregister.eot");
+  src: url("/images/fonts/iconregister.eot?#iefix") format("embedded-opentype"), url("/images/fonts/iconregister.woff") format("woff"), url("/images/fonts/iconregister.ttf") format("truetype"), url("/images/fonts/iconregister.svg#iconfont") format("svg"); }
+
+#registerPwd {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  flex-direction: column;
+  height: 100%;
+  background: #f0f0f0;
+  font-family: "\5FAE\8F6F\96C5\9ED1"; }
+  #registerPwd header {
+    width: 100%;
+    height: .59rem;
+    background: #e6e6e6;
+    text-align: center;
+    line-height: .59rem;
+    font-size: .18rem; }
+    #registerPwd header span:nth-child(1) {
+      display: block;
+      position: absolute;
+      left: 6.1%;
+      font-size: .30rem; }
+  #registerPwd section {
+    flex: 1; }
+    #registerPwd section .info {
+      width: 80%;
+      height: .65rem;
+      border-bottom: 1px solid #d7d7d7;
+      margin: auto;
+      text-align: center; }
+      #registerPwd section .info b {
+        font-size: .30rem;
+        position: absolute;
+        left: 13.6%;
+        margin-top: .24rem; }
+      #registerPwd section .info span {
+        display: inline-block;
+        margin-top: .2rem;
+        font-size: .14rem;
+        margin-top: .4rem; }
+      #registerPwd section .info:nth-child(3) {
+        border: 0; }
+        #registerPwd section .info:nth-child(3) p {
+          width: 1.6rem;
+          height: .24rem;
+          border-bottom: 1px solid #d7d7d; }
+    #registerPwd section p {
+      width: 100%;
+      height: .48rem;
+      line-height: .48rem;
+      text-align: center;
+      font-size: .14rem;
+      color: #8c8c8c; }
+    #registerPwd section .res {
+      width: 83.2%;
+      height: .36rem;
+      background: #000;
+      text-align: center;
+      line-height: .36rem;
+      margin: .62rem  auto 0;
+      font-size: .14rem;
+      color: #fff; }
+
+/*----------------shop---------------*/
+@font-face {
+  font-family: "yofont";
+  src: url("/images/fonts/iconshop.eot");
+  src: url("/images/fonts/iconshop.eot?#iefix") format("embedded-opentype"), url("/images/fonts/iconshop.woff") format("woff"), url("/images/fonts/iconshop.ttf") format("truetype"), url("/images/fonts/iconshop.svg#iconfont") format("svg");
+  /* iOS 4.1- */ }
+
+/*---------------person---------------*/
+@font-face {
+  font-family: 'yofont';
+  src: url("/images/fonts/iconperson.eot");
+  src: url("/images/fonts/iconperson.eot?#iefix") format("embedded-opentype"), url("/images/fonts/iconperson.woff") format("woff"), url("/images/fonts/iconperson.ttf") format("truetype"), url("/images/fonts/iconperson.svg#iconfont") format("svg"); }
+
+/*----------------------register----------------------*/
+@font-face {
+  font-family: 'yofont';
+  src: url("/images/fonts/iconregister.eot");
+  src: url("/images/fonts/iconregister.eot?#iefix") format("embedded-opentype"), url("/images/fonts/iconregister.woff") format("woff"), url("/images/fonts/iconregister.ttf") format("truetype"), url("/images/fonts/iconregister.svg#iconfont") format("svg"); }
+
 #app {
   height: 100%; }
   #app #login {
@@ -907,11 +1218,13 @@ a {
       #app #login section .fg {
         font-size: .13rem;
         color: #696969;
-        margin-top: .26rem; }
-        #app #login section .fg span:nth-child(1) {
+        margin-top: .26rem;
+        display: flex; }
+        #app #login section .fg .pwd {
+          width: 24%;
           margin-left: 10%;
-          margin-right: 40%; }
-        #app #login section .fg span:nth-child(3) {
+          margin-right: 30%; }
+        #app #login section .fg router-view span:nth-child(2) {
           color: #364cb3;
           font-weight: 600; }
       #app #login section .other {

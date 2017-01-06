@@ -1,0 +1,109 @@
+@charset "utf-8";
+@import "./common.scss";
+#app{
+    height: 100%;
+    #login{
+        @include flexbox();
+        @include flex-direction(column);
+        height: 100%;
+        background: #f0f0f0;
+        font-family: "微软雅黑";
+        header{
+            width: 100%;
+            height: .59rem;
+            background: #e6e6e6;;
+            line-height: .59rem;
+            font-size: .18rem;
+            display: flex;
+            color: #000;
+            span:nth-child(1){
+                display: inline;
+                margin-left: 6.4%;
+                font-size: .30rem;
+            }
+            span:nth-child(2){
+                margin: auto;
+            }
+            span:nth-child(3){
+                display: inline;
+                margin-right: 3.2%;
+                color: #747474;
+                font-size: .13rem;
+            }
+        }
+        section{
+            flex: 1;
+            .info{
+                width: 81%;
+                height: .65rem;
+                border-bottom: 1px solid #d7d7d7;
+                margin: auto;
+                text-align: center;
+                b{
+                    font-size: .30rem;
+                    position:absolute;
+                    left: 13.6%;
+                    margin-top: .24rem;
+                }
+                 i{
+                    display: inline-block;
+                    margin-top: .4rem;
+                    font-size: .14rem;
+                }
+            }
+            .res{
+                width: 83.2%;
+                height: .36rem;
+                background: #000;
+                text-align: center;
+                line-height: .36rem;
+                margin: 0.225rem auto 0;
+                font-size: .14rem;
+                color: #fff;
+            }
+            .fg{
+                font-size: .13rem;
+                color: #696969;
+                margin-top: .26rem;
+                display: flex;
+                .pwd{
+                   //display: inline;
+                    width: 24%;
+                    margin-left: 10%;
+                    margin-right: 30%;
+                }
+                // router-view{
+                //   span:nth-child(2){
+                //     color: #696969;
+                //     font-weight: 600;
+                //   }
+                // }
+                a{
+                  span:nth-child(1){
+                    color: #696969;
+                  }
+                  span:nth-child(2){
+                    font-weight: 600;
+                  }
+                }
+            }
+            .other{
+                height: .68rem;
+                line-height: .68rem;
+                font-size: .14rem;
+                color: #757575;
+                margin-top: .30rem;
+                text-align: center;
+            }
+            .mth{
+                width: 26%;
+                margin: auto;
+                font-size: .32rem;
+                span:nth-child(1){
+                    display:inline-block;
+                    margin-right: 8.8%;
+                }
+            }
+        }
+    }
+}

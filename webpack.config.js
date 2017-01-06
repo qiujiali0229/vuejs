@@ -42,11 +42,11 @@ module.exports = {
   		js: 'babel'
   	}
   },
-//resolve: {
-//	alias: {
-//		'vue':'vue/dist/vue.min.js'
-//	}
-//},
+  resolve: {
+  	alias: {
+  		'vue$':'vue/dist/vue.min.js'
+  	}
+  },
   devServer: {
     contentBase: __dirname + '/prd',
     port: 80,
@@ -61,7 +61,7 @@ module.exports = {
     }
   },
   plugins:[
-    //new webpack.optimize.UglifyJsPlugin(),
+    new webpack.optimize.UglifyJsPlugin(),
     new ET('bundle.css')
   ]
 }
