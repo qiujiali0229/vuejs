@@ -1,0 +1,12 @@
+<div id="registerPwd">
+	<header>
+	    <span class="yo-ico">&#xe658;</span>
+	    <span>密码注册</span>
+	</header>
+	<section>
+			<div class="info"><i>fd</i><b class="yo-ico">&#xe692;</b><span>输入密码</span></div>
+			<div class="info"><i>fdsa</i><b class="yo-ico">&#xe692;</b><span>再次输入密码</span></div>
+			<div class="info"><i>点击发送验证码</i><span>输入验证码</span></div>
+			<div class="res">注册</div>
+	</section>
+</div>

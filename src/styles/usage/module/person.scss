@@ -1,94 +1,112 @@
 @charset "utf-8";
 @import "./common.scss";
-.person{
-    @include flexbox();
-    @include flex-direction(column);
+#app{
     height: 100%;
-    background: #f5f5f5;
-    font-family: "微软雅黑";
-    header{
-        width: 100%;
-        height: .56rem;
-        background: #e6e6e6;
-        text-align: center;
-        line-height: .56rem;
-        font-size: .16rem;
-    }
-    section{
-        width: 100%;
+    #person{
         @include flexbox();
         @include flex-direction(column);
-        flex: 1;
-        .login{
-            
+        height: 100%;
+        background: #f5f5f5;
+        font-family: "微软雅黑";
+        header{
             width: 100%;
-            line-height: 1rem;
-            background: #fff;
-            font-size: .18rem;  
-            img {
-                width: .73rem;
-                height: .73rem;
-                margin: 4.3%;
-            }
-            span{
-                position:absolute;
-                right: 5.3%;    
-            }
+            height: .56rem;
+            background: #e6e6e6;
+            text-align: center;
+            line-height: .56rem;
+            font-size: .16rem;
         }
-        .main{
+        section{
             width: 100%;
-            height: .85rem;
-            background: #fff;
-            margin: .2rem 0;
-            hgroup{
-                @inlcude felx();
-                width: 1.5rem;
+            @include flexbox();
+            @include flex-direction(column);
+            flex: 1;
+            .log{
+                width: 100%;
+                line-height: 1rem;
+                background: #fff;
+                font-size: .18rem;  
+                img {
+                    width: .73rem;
+                    height: .73rem;
+                    margin: 4.3%;
+                }
+                span{
+                    position:absolute;
+                    right: 5.3%;    
+                }
             }
-            p{
-                &:nth-child(1){
-                    height: .4rem;
-                    color: #6a6a6a;
-                    i{
-                        line-height: .7rem;
-                        font-size: .28rem;
-                        &:nth-child(1){
-                            margin-left: 21.2%;
+            .main{
+                width: 100%;
+                height: .85rem;
+                background: #fff;
+                margin: .2rem 0;
+                hgroup{
+                    @inlcude felx();
+                    width: 1.5rem;
+                }
+                p{
+                    &:nth-child(1){
+                        height: .4rem;
+                        color: #6a6a6a;
+                        i{
+                            line-height: .7rem;
+                            font-size: .28rem;
+                            &:nth-child(1){
+                                margin-left: 21.2%;
+                            }
+                            &:nth-child(2){
+                                position:absolute;
+                                right: 21.2%;
+                            }
                         }
-                        &:nth-child(2){
-                            position:absolute;
-                            right: 21.2%;
+                    }
+                    &:nth-child(2){
+                        height: .45rem;
+                        line-height: .45rem;
+                        color: #6e6e6e;
+                        b{
+                            font-weight: 100;
+                            font-size: .15rem;
+                            &:nth-child(1){
+                                margin-left: 18.7%;
+                            }
+                            &:nth-child(2){
+                                position:absolute;
+                                right: 16.5%;
+                            }
                         }
                     }
                 }
-                &:nth-child(2){
+            }
+            .info{
+                width: 100%;
+                height: .92rem;
+                background: #fff;
+                p{
                     height: .45rem;
                     line-height: .45rem;
-                    color: #6e6e6e;
-                    b{
-                        font-weight: 100;
-                        font-size: .15rem;
-                        &:nth-child(1){
-                            margin-left: 18.7%;
-                        }
-                        &:nth-child(2){
-                            position:absolute;
-                            right: 16.5%;
-                        }
+                    i{
+                        font-size: .28rem;
+                        margin-left: 12%;
+                        margin-right: 8.8%;
+                        color: #707070;
+                    }
+                    span{
+                        font-size: .14rem;
+                        color: #757575;
                     }
                 }
             }
-        }
-        .info{
-            width: 100%;
-            height: .92rem;
-            background: #fff;
-            p{
-                height: .45rem;
-                line-height: .45rem;
+            .set{
+                wwidth: 100%;
+                flex: 1;
+                background: #fff;
+                margin-top: .2rem;
                 i{
                     font-size: .28rem;
-                    margin-left: 12%;
-                    margin-right: 8.8%;
+                    margin-left: .4rem;
+                    margin-right: .34rem;
                     color: #707070;
                 }
                 span{
@@ -96,22 +114,7 @@
                     color: #757575;
                 }
             }
-        }
-        .set{
-            wwidth: 100%;
-            flex: 1;
-            background: #fff;
-            margin-top: .2rem;
-            i{
-                font-size: .28rem;
-                margin-left: .4rem;
-                margin-right: .34rem;
-                color: #707070;
-            }
-            span{
-                font-size: .14rem;
-                color: #757575;
-            }
-        }
-    }  
+        }  
+    }
 }
+

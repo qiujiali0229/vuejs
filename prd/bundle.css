@@ -706,87 +706,227 @@ a {
   -moz-osx-font-smoothing: grayscale;
   vertical-align: middle; }
 
+/*----------------shop---------------*/
 @font-face {
   font-family: "yofont";
-  src: url("/images/fonts/iconfont.eot");
-  src: url("/images/fonts/iconfont.eot?#iefix") format("embedded-opentype"), url("/images/fonts/iconfont.woff") format("woff"), url("/images/fonts/iconfont.ttf") format("truetype"), url("/images/fonts/iconfont.svg#iconfont") format("svg");
+  src: url("/images/fonts/iconshop.eot");
+  src: url("/images/fonts/iconshop.eot?#iefix") format("embedded-opentype"), url("/images/fonts/iconshop.woff") format("woff"), url("/images/fonts/iconshop.ttf") format("truetype"), url("/images/fonts/iconshop.svg#iconfont") format("svg");
   /* iOS 4.1- */ }
 
-.m-index {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-  -webkit-flex-direction: column;
-  flex-direction: column;
-  height: 100%;
-  background: #f1f1f1; }
-  .m-index header {
-    @inculde flex();
-    height: .56rem;
-    background: #e6e6e6;
-    text-align: center;
-    line-height: .56rem; }
-  .m-index section {
-    -webkit-box-flex: 1;
-    -webkit-flex: 1;
-    flex: 1;
-    width: .1px;
-    flex: 1;
-    width: 100%; }
-    .m-index section div {
-      -webkit-box-flex: 1;
-      -webkit-flex: 1;
-      flex: 1;
-      width: .1px;
-      -webkit-box-pack: center;
-      -webkit-justify-content: center;
-      justify-content: center;
-      -webkit-box-align: center;
-      -webkit-align-items: center;
-      align-items: center;
-      width: 96.6%;
-      height: 3.56rem;
-      margin: .05rem;
-      border: 1px solid #ddd;
-      border-radius: 5px; }
-      .m-index section div b img:nth-child(1) {
-        width: 98%;
-        height: 1.87rem;
-        margin: .03rem; }
-      .m-index section div i {
-        display: -webkit-box;
-        display: -webkit-flex;
-        display: flex;
-        -webkit-box-orient: horizontal;
-        -webkit-box-direction: normal;
-        -webkit-flex-direction: row;
-        flex-direction: row;
-        height: 1.63rem; }
-        .m-index section div i dl {
-          width: 32%;
-          height: 1.6rem;
-          margin: .03rem 0.01rem 0 0; }
-          .m-index section div i dl dt {
-            width: 96%;
-            height: 1.13rem; }
-            .m-index section div i dl dt img {
-              display: block;
-              width: 100%;
-              height: 100%; }
-          .m-index section div i dl dd {
-            width: 96%;
-            height: .47rem; }
-            .m-index section div i dl dd p {
-              width: 100%;
-              height: .235rem;
-              text-align: center;
-              font-size: .14rem;
-              color: #585858; }
-              .m-index section div i dl dd p:nth-child(1) {
-                line-height: .25rem; }
-          .m-index section div i dl:nth-child(1) {
-            margin-left: .04rem; }
+/*---------------person---------------*/
+@font-face {
+  font-family: 'yofont';
+  src: url("/images/fonts/iconperson.eot");
+  src: url("/images/fonts/iconperson.eot?#iefix") format("embedded-opentype"), url("/images/fonts/iconperson.woff") format("woff"), url("/images/fonts/iconperson.ttf") format("truetype"), url("/images/fonts/iconperson.svg#iconfont") format("svg"); }
+
+/*----------------------register----------------------*/
+@font-face {
+  font-family: 'yofont';
+  src: url("/images/fonts/iconregister.eot");
+  src: url("/images/fonts/iconregister.eot?#iefix") format("embedded-opentype"), url("/images/fonts/iconregister.woff") format("woff"), url("/images/fonts/iconregister.ttf") format("truetype"), url("/images/fonts/iconregister.svg#iconfont") format("svg"); }
+
+#app {
+  height: 100%; }
+  #app #person {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    flex-direction: column;
+    height: 100%;
+    background: #f5f5f5;
+    font-family: "\5FAE\8F6F\96C5\9ED1"; }
+    #app #person header {
+      width: 100%;
+      height: .56rem;
+      background: #e6e6e6;
+      text-align: center;
+      line-height: .56rem;
+      font-size: .16rem; }
+    #app #person section {
+      width: 100%;
+      display: -webkit-box;
+      display: -webkit-flex;
+      display: flex;
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+      -webkit-flex-direction: column;
+      flex-direction: column;
+      flex: 1; }
+      #app #person section .log {
+        width: 100%;
+        line-height: 1rem;
+        background: #fff;
+        font-size: .18rem; }
+        #app #person section .log img {
+          width: .73rem;
+          height: .73rem;
+          margin: 4.3%; }
+        #app #person section .log span {
+          position: absolute;
+          right: 5.3%; }
+      #app #person section .main {
+        width: 100%;
+        height: .85rem;
+        background: #fff;
+        margin: .2rem 0; }
+        #app #person section .main hgroup {
+          @inlcude felx();
+          width: 1.5rem; }
+        #app #person section .main p:nth-child(1) {
+          height: .4rem;
+          color: #6a6a6a; }
+          #app #person section .main p:nth-child(1) i {
+            line-height: .7rem;
+            font-size: .28rem; }
+            #app #person section .main p:nth-child(1) i:nth-child(1) {
+              margin-left: 21.2%; }
+            #app #person section .main p:nth-child(1) i:nth-child(2) {
+              position: absolute;
+              right: 21.2%; }
+        #app #person section .main p:nth-child(2) {
+          height: .45rem;
+          line-height: .45rem;
+          color: #6e6e6e; }
+          #app #person section .main p:nth-child(2) b {
+            font-weight: 100;
+            font-size: .15rem; }
+            #app #person section .main p:nth-child(2) b:nth-child(1) {
+              margin-left: 18.7%; }
+            #app #person section .main p:nth-child(2) b:nth-child(2) {
+              position: absolute;
+              right: 16.5%; }
+      #app #person section .info {
+        width: 100%;
+        height: .92rem;
+        background: #fff; }
+        #app #person section .info p {
+          height: .45rem;
+          line-height: .45rem; }
+          #app #person section .info p i {
+            font-size: .28rem;
+            margin-left: 12%;
+            margin-right: 8.8%;
+            color: #707070; }
+          #app #person section .info p span {
+            font-size: .14rem;
+            color: #757575; }
+      #app #person section .set {
+        wwidth: 100%;
+        flex: 1;
+        background: #fff;
+        margin-top: .2rem; }
+        #app #person section .set i {
+          font-size: .28rem;
+          margin-left: .4rem;
+          margin-right: .34rem;
+          color: #707070; }
+        #app #person section .set span {
+          font-size: .14rem;
+          color: #757575; }
+
+/*----------------shop---------------*/
+@font-face {
+  font-family: "yofont";
+  src: url("/images/fonts/iconshop.eot");
+  src: url("/images/fonts/iconshop.eot?#iefix") format("embedded-opentype"), url("/images/fonts/iconshop.woff") format("woff"), url("/images/fonts/iconshop.ttf") format("truetype"), url("/images/fonts/iconshop.svg#iconfont") format("svg");
+  /* iOS 4.1- */ }
+
+/*---------------person---------------*/
+@font-face {
+  font-family: 'yofont';
+  src: url("/images/fonts/iconperson.eot");
+  src: url("/images/fonts/iconperson.eot?#iefix") format("embedded-opentype"), url("/images/fonts/iconperson.woff") format("woff"), url("/images/fonts/iconperson.ttf") format("truetype"), url("/images/fonts/iconperson.svg#iconfont") format("svg"); }
+
+/*----------------------register----------------------*/
+@font-face {
+  font-family: 'yofont';
+  src: url("/images/fonts/iconregister.eot");
+  src: url("/images/fonts/iconregister.eot?#iefix") format("embedded-opentype"), url("/images/fonts/iconregister.woff") format("woff"), url("/images/fonts/iconregister.ttf") format("truetype"), url("/images/fonts/iconregister.svg#iconfont") format("svg"); }
+
+#app {
+  height: 100%; }
+  #app #login {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    flex-direction: column;
+    height: 100%;
+    background: #f0f0f0;
+    font-family: "\5FAE\8F6F\96C5\9ED1"; }
+    #app #login header {
+      width: 100%;
+      height: .59rem;
+      background: #e6e6e6;
+      line-height: .59rem;
+      font-size: .18rem;
+      display: flex;
+      color: #000; }
+      #app #login header span:nth-child(1) {
+        display: inline;
+        margin-left: 6.4%;
+        font-size: .30rem; }
+      #app #login header span:nth-child(2) {
+        margin: auto; }
+      #app #login header span:nth-child(3) {
+        display: inline;
+        margin-right: 3.2%;
+        color: #747474;
+        font-size: .13rem; }
+    #app #login section {
+      flex: 1; }
+      #app #login section .info {
+        width: 81%;
+        height: .65rem;
+        border-bottom: 1px solid #d7d7d7;
+        margin: auto;
+        text-align: center; }
+        #app #login section .info b {
+          font-size: .30rem;
+          position: absolute;
+          left: 13.6%;
+          margin-top: .24rem; }
+        #app #login section .info i {
+          display: inline-block;
+          margin-top: .4rem;
+          font-size: .14rem; }
+      #app #login section .res {
+        width: 83.2%;
+        height: .36rem;
+        background: #000;
+        text-align: center;
+        line-height: .36rem;
+        margin: 0.225rem auto 0;
+        font-size: .14rem;
+        color: #fff; }
+      #app #login section .fg {
+        font-size: .13rem;
+        color: #696969;
+        margin-top: .26rem; }
+        #app #login section .fg span:nth-child(1) {
+          margin-left: 10%;
+          margin-right: 40%; }
+        #app #login section .fg span:nth-child(3) {
+          color: #364cb3;
+          font-weight: 600; }
+      #app #login section .other {
+        height: .68rem;
+        line-height: .68rem;
+        font-size: .14rem;
+        color: #757575;
+        margin-top: .30rem;
+        text-align: center; }
+      #app #login section .mth {
+        width: 26%;
+        margin: auto;
+        font-size: .32rem; }
+        #app #login section .mth span:nth-child(1) {
+          display: inline-block;
+          margin-right: 8.8%; }
 
 /*# sourceMappingURL=bundle.css.map*/

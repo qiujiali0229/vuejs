@@ -1,3 +1,4 @@
+
 new Vue({
 	el: '#shopIndex',
 	data: {
@@ -69,8 +70,6 @@ new Vue({
 //		                  foot.removeClass('down');
 //		                  foot.attr('src', '/images/arrow.png');
 //		                })
-//		
-//		
 //		            }
 //		        })
 //		    }, 1000);

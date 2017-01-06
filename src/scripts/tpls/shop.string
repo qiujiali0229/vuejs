@@ -3,7 +3,7 @@
 		<span>商城</span>
     	<span class="yo-ico">&#xe611;</span>
 	</header>
-	<section>	
+	<section>
   	    <!--<div>
   	    	<b><img src="/images/shop-1.png" alt="" /></b>
   	    	<i>
@@ -34,7 +34,7 @@
 						<dd><p>{{item.title}}</p><p>{{item.price}}</p></dd>
 					</dl>
 	  	    	</i>
-	  	    </div>  
+	  	    </div>
 	  	    <div class="foot">
 	            <img src="/images/arrow.png" width="40" height="40"/>
 	            <span>上拉加载更多...</span>

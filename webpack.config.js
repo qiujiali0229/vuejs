@@ -17,8 +17,13 @@ module.exports = {
       },
       {
         test: /\.js$/,
-        //loader: 'babel-loader?presets[]=es2015'
-        loader: 'babel'
+        loader: 'babel-loader?presets[]=es2015'
+        //loader: 'babel'
+      },
+      {
+        test: /\.scss$/,
+        //loader: 'style!css!sass'
+        loader: ET.extract('style','css!sass')
       },
       {
         test: /\.string$/,
@@ -26,22 +31,22 @@ module.exports = {
         loader: 'string'
       },
       {
-      	test:/\.vue$/,
+      	test: /\.vue$/,
       	loader: 'vue'
-      },
-      {
-        test: /\.scss$/,
-        //loader: 'style!css!sass'
-        loader: ET.extract('style','css!sass')
       }
     ]
   },
   /*-----------使用babel解析es6-----------*/
   vue: {
-  	loader: {
+  	loaders: {
   		js: 'babel'
   	}
   },
+//resolve: {
+//	alias: {
+//		'vue':'vue/dist/vue.min.js'
+//	}
+//},
   devServer: {
     contentBase: __dirname + '/prd',
     port: 80,

@@ -1,9 +1,7 @@
 @charset "UTF-8";
-
 @import "./core/reset";
-
-// module
-//@import "./module/shop"
-//@import "./module/person";
-//@import "./module/register";
+@import "./module/shop";
+@import "./module/person";
+@import "./module/register";
 @import "./module/registerPwd";
+@import "./module/login"

@@ -1,0 +1,67 @@
+@charset "utf-8";
+@import "./common.scss";
+#registerPwd{
+    @include flexbox();
+    @include flex-direction(column);
+    height: 100%;
+    background: #f0f0f0;
+    font-family: "微软雅黑";
+    header{
+        width: 100%;
+        height: .59rem;
+        background: #e6e6e6;
+        text-align: center;
+        line-height: .59rem;
+        font-size: .18rem;
+        span:nth-child(1){
+            display: block;
+            position: absolute;
+            left: 6.1%;
+        }
+    }
+    section{
+        flex: 1;
+        .info{
+            width: 81%;
+            height: .65rem;
+            border-bottom: 1px solid #d7d7d7;
+            margin: auto;  
+            text-align: center;
+            i{
+                position:relative;
+                bottom: -0.4rem;
+                font-size: .14rem;
+            }
+            b{
+                font-size: .30rem;
+                position:absolute;
+                left: 13.6%;
+                margin-top: .24rem;
+            }  
+            span{
+                display: block;
+                margin-top: .2rem;
+                font-size: .14rem;
+                
+            }
+        }
+        p{
+            width: 100%;
+            height: .48rem;
+            line-height: .48rem;
+            text-align: center;
+            font-size: .14rem;
+            color: #8c8c8c;
+        }
+        .res{
+            width: 83.2%;
+            height: .36rem;
+            background: #000;
+            text-align: center;
+            line-height: .36rem;
+            margin: .62rem  auto 0;
+            font-size: .14rem;
+            color: #fff;
+        }
+    }
+}
