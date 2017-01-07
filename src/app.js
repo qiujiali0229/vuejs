@@ -33,9 +33,6 @@ const routes=[
       	 	component: person
     	 }]
     },{
-      	path: '/person',
-      	component: person
-    },{
       	path: '/login',
       	component: login
     },{

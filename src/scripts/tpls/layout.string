@@ -1,15 +1,3 @@
 <div id="app">
-<<<<<<< HEAD
-<<<<<<< HEAD
 	<router-view></router-view>
 </div>
-=======
-		<router-view></router-view>
-</div>
- 
->>>>>>> lijunmin
-=======
-		<router-view></router-view>
-</div>
- 
->>>>>>> lijunmin
