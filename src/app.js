@@ -1,6 +1,6 @@
 require('./styles/usage/app.scss')
 require('./scripts/views/index.js')
-require('./scripts/views/ff-index.js')
+require('./scripts/views/search.js')
 //components
 var layout = require('./scripts/tpls/layout.string')
 var common = require('./scripts/utils/util.common.js')

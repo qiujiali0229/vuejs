@@ -17,13 +17,12 @@ new Vue({
 			this.navIndex = index;
 		}
 	},
-
 	mounted:function(){
 		fetch('/api/list').then(response => response.json())
 		.then(res => {
 			var that = this;
 			that.list = res;
-			console.log(res.data1);
+			//console.log(res.data1);
 			that.swiper = new Swiper('#index-swiper',{
 				loop:false,
 				onSlideChangeStart: function(swiper){

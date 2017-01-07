@@ -70,13 +70,13 @@
    	module.exports = {
    		data: function() {
    			return {
-   				list:[]
+   				list3:[],
    			}
    		},
 	 	mounted: function() {
-	       fetch('/api/list').then(response=> response.json())
+	       fetch('/api/list3').then(response=> response.json())
 	       .then(res => {
-	          this.list=res;
+	          this.list3=res;
 		          new Swiper('#index-swiper',{
 		          	loop:false
 		          });
