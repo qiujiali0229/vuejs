@@ -1,49 +1,29 @@
 <template id="">
-	<!--<router-view>-->
-		
-	<!--</router-view>-->
 	<div id="shopIndex">
 		<header>
-			<span>商城</span>
+			  <span>商城</span>
 	    	<span class="yo-ico">&#xe611;</span>
 		</header>
 		<section>
-	  	    <!--<div>
-	  	    	<b><img src="/images/shop-1.png" alt="" /></b>
+  	    <div id="shopIscroll">
+  	    	<div class="head">
+	            <img src="/images/arrow.png" width="40" height="40"/>
+	            <span>下拉刷新...</span>
+	        </div>
+	  	    <div v-for="data in list" class="bor">
+	  	    	<b v-for="img in data.main"><img :src="img.imgSrc" alt="" /></b>
 	  	    	<i>
-	  	    		<dl>
-						<dt><img src="/images/shop-2.png" alt=""/></dt>
-						<dd><p>碟之语</p><p>￥119</p></dd>
-					</dl>
-					<dl>
-						<dt><img src="/images/shop-3.png" alt=""/></dt>
-						<dd><p>玫瑰吊坠</p><p>￥499</p></dd>
-					</dl>
-					<dl>
-						<dt><img src="/images/shop-4.png" alt=""/></dt>
-						<dd><p>暗香</p><p>￥219</p></dd>
+	  	    		<dl v-for="item in data.itemInfo">
+						<dt><img :src="item.itemSrc" alt=""/></dt>
+						<dd><p>{{item.title}}</p><p>{{item.price}}</p></dd>
 					</dl>
 	  	    	</i>
-	  	    </div>-->
-	  	    <div id="shopIscroll">
-	  	    	<div class="head">
-		            <img src="/images/arrow.png" width="40" height="40"/>
-		            <span>下拉刷新...</span>
-		        </div>
-		  	    <div v-for="data in list" class="bor">
-		  	    	<b v-for="img in data.main"><img :src="img.imgSrc" alt="" /></b>
-		  	    	<i>
-		  	    		<dl v-for="item in data.itemInfo">
-							<dt><img :src="item.itemSrc" alt=""/></dt>
-							<dd><p>{{item.title}}</p><p>{{item.price}}</p></dd>
-						</dl>
-		  	    	</i>
-		  	    </div>
-		  	    <div class="foot">
-		            <img src="/images/arrow.png" width="40" height="40"/>
-		            <span>上拉加载更多...</span>
-		        </div>
 	  	    </div>
+	  	    <div class="foot">
+	            <img src="/images/arrow.png" width="40" height="40"/>
+	            <span>上拉加载更多...</span>
+	        </div>
+  	    </div>
 	    </section>
 	</div>
 </template>

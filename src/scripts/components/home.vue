@@ -64,7 +64,6 @@
 	</div>
 </template>
  <script>
- //var Vue = require('../lib/vue.js');
 var Swiper = require('../lib/swiper.js');
     var common = require('../utils/util.common.js');
  	module.exports = {
@@ -93,5 +92,5 @@ var Swiper = require('../lib/swiper.js');
 	       .catch(e => console.log("0ops,err",e))
 	    }
 	}
- 	
+
  </script>

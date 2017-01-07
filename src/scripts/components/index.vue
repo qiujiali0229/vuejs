@@ -29,15 +29,15 @@
 						title:'发现'
 					},
 					{
-						router:'/supermarket',
+						router:'/shop',
 						ico:'&#xe675;',
 						title:'商城'
 					},
 					{
-						router:'/my',
+						router:'/person',
 						ico:'&#xe66f;',
-						title:'我的'
-					},
+						title:'个人'
+					}
 				]
 			}
 		}

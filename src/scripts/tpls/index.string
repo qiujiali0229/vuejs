@@ -1,7 +1,3 @@
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> lijunmin
 <div class="m-index" id="m-index">
  <router-view></router-view>
   <footer>
@@ -24,8 +20,6 @@
   		</li>
   	</ul>
   </footer>
-<<<<<<< HEAD
-=======
 <div class="f-index" id="f-index">
   <section>
 
@@ -56,8 +50,4 @@
         </div>
     </div>
   </section>
-  <footer>111</footer>
->>>>>>> fgl
-=======
->>>>>>> lijunmin
 </div>
