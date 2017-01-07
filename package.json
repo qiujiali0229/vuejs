@@ -22,55 +22,14 @@
     "scss-loader": "0.0.1",
     "string-loader": "0.0.1",
     "style-loader": "^0.13.1",
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
     "swiper": "^3.4.1",
->>>>>>> lijunmin
-=======
-    "swiper": "^3.4.1",
->>>>>>> lijunmin
     "vue": "^2.1.8",
     "vue-html-loader": "^1.2.3",
     "vue-loader": "^10.0.2",
     "vue-router": "^2.1.1",
     "vue-template-compiler": "^2.1.8",
     "webpack": "^1.14.0",
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-    "swiper": "^3.4.1",
-    "vue": "^2.1.8",
-    "webpack": "^1.14.0",
->>>>>>> fgl
     "webpack-dev-server": "^1.16.2",
     "zepto": "^1.2.0"
-  }
-=======
-=======
->>>>>>> lijunmin
-    "webpack-dev-server": "^1.16.2"
-  },
-  "dependencies": {
-    "babel-loader": "^6.2.10",
-    "babel-preset-es2015": "^6.18.0",
-    "babel-core": "^6.21.0",
-    "node-sass": "^4.1.1",
-    "sass-loader": "^4.1.1",
-    "string-loader": "^0.0.1",
-    "webpack-dev-server": "^1.16.2"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/qiujiali0229/vuejs.git"
-  },
-  "bugs": {
-    "url": "https://github.com/qiujiali0229/vuejs/issues"
-  },
-  "homepage": "https://github.com/qiujiali0229/vuejs#readme"
-<<<<<<< HEAD
->>>>>>> lijunmin
-=======
->>>>>>> lijunmin
+   }
 }
