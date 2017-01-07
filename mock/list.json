@@ -1,7 +1,5 @@
-<<<<<<< HEAD
 [
-<<<<<<< HEAD
-	{   
+	{
 	    "main":[
 			{
 				"imgSrc": "/images/shop-1.jpg"
@@ -25,7 +23,7 @@
 		    }
 		]
 	},
-	{   
+	{
 	    "main":[
 			{
 				"imgSrc": "/images/shop-5.jpg"
@@ -49,7 +47,7 @@
 		    }
 		]
 	},
-	{   
+	{
 	    "main":[
 			{
 				"imgSrc": "/images/shop-9.jpg"
@@ -73,7 +71,7 @@
 		    }
 		]
 	},
-	{   
+	{
 	    "main":[
 			{
 				"imgSrc": "/images/shop-13.jpg"
@@ -97,7 +95,7 @@
 		    }
 		]
 	},
-	{   
+	{
 	    "main":[
 			{
 				"imgSrc": "/images/shop-17.jpg"
@@ -121,7 +119,7 @@
 		    }
 		]
 	},
-	{   
+	{
 	    "main":[
 			{
 				"imgSrc": "/images/shop-21.jpg"
@@ -145,7 +143,7 @@
 		    }
 		]
 	},
-	{   
+	{
 	    "main":[
 			{
 				"imgSrc": "/images/shop-25.jpg"
@@ -169,7 +167,7 @@
 		    }
 		]
 	},
-	{   
+	{
 	    "main":[
 			{
 				"imgSrc": "/images/shop-29.jpg"
@@ -193,7 +191,7 @@
 		    }
 		]
 	},
-	{   
+	{
 	    "main":[
 			{
 				"imgSrc": "/images/shop-33.jpg"
@@ -216,10 +214,8 @@
 		    	"price": "￥158"
 		    }
 		]
-	}  
-]
-=======
-  {
+	},
+	{
     "imgSrc": "images/s-1.jpg"
   },
   {
@@ -233,48 +229,47 @@
   },
     {
     "imgSrc": "images/s-5.jpg"
-  }
+  },
+	{
+		 "data1":[
+				{
+					"imgSrc" : "images/image/f-bo1.jpg"
+				},
+				{
+					"imgSrc" : "images/image/f-bo2.jpg"
+				},
+				{
+					"imgSrc" : "images/image/f-bo3.jpg"
+				},
+				{
+					"imgSrc" : "images/image/f-bo4.jpg"
+				},
+				{
+					"imgSrc" : "images/image/f-bo5.jpg"
+				},
+				{
+					"imgSrc" : "images/image/f-bo6.jpg"
+				}
+		],
+		"data2":[
+				{
+					"imgSrc1" : "images/image/f-bor1.jpg"
+				},
+				{
+					"imgSrc1" : "images/image/f-bor2.jpg"
+				},
+				{
+					"imgSrc1" : "images/image/f-bor3.jpg"
+				},
+				{
+					"imgSrc1" : "images/image/f-bor4.jpg"
+				},
+				{
+					"imgSrc1" : "images/image/f-bor5.jpg"
+				},
+				{
+					"imgSrc1" : "images/image/f-bor6.jpg"
+				}
+		 ]
+	}
 ]
->>>>>>> lijunmin
-=======
-{"data1":[
-	{
-		"imgSrc" : "images/image/f-bo1.jpg"
-	},
-	{
-		"imgSrc" : "images/image/f-bo2.jpg"
-	},
-	{
-		"imgSrc" : "images/image/f-bo3.jpg"
-	},
-	{
-		"imgSrc" : "images/image/f-bo4.jpg"
-	},
-	{
-		"imgSrc" : "images/image/f-bo5.jpg"
-	},
-	{
-		"imgSrc" : "images/image/f-bo6.jpg"
-	}
-],
-"data2":[
-	{
-		"imgSrc1" : "images/image/f-bor1.jpg"
-	},
-	{
-		"imgSrc1" : "images/image/f-bor2.jpg"
-	},
-	{
-		"imgSrc1" : "images/image/f-bor3.jpg"
-	},
-	{
-		"imgSrc1" : "images/image/f-bor4.jpg"
-	},
-	{
-		"imgSrc1" : "images/image/f-bor5.jpg"
-	},			
-	{
-		"imgSrc1" : "images/image/f-bor6.jpg"
-	}
-]}
->>>>>>> fgl
